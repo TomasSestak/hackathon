@@ -6,8 +6,9 @@ import {
 	useSelector as useReduxSelector,
 	useStore as useReduxStore,
 } from 'react-redux';
+import ui from '@/store/ui';
 
-const combinedReducer = combineReducers({});
+const combinedReducer = combineReducers({ ui });
 
 const reducer = (state: any, action: any) => {
 	if (action.type === 'user/reset') {
