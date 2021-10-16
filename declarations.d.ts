@@ -1,3 +1,5 @@
+import { Component } from 'react';
+
 declare module 'react-facebook' {
 	export class LoginButton extends React.PureComponent<{ onClick: () => void }> {}
 	interface FacebookProviderProps {
@@ -27,4 +29,7 @@ declare module 'react-facebook' {
 	export class Group extends React.PureComponent<GroupProps> {}
 }
 
-declare module 'react-facebook-login/dist/facebook-login-render-props' {}
+declare module 'react-facebook-login/dist/facebook-login-render-props' {
+	var x: any;
+	export = x;
+}

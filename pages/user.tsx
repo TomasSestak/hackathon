@@ -11,7 +11,7 @@ const User = () => {
 
 	const { logged } = useSelector(({ auth }) => auth);
 
-	const responseFacebook = (res) => {
+	const responseFacebook = (res: any) => {
 		console.log(res);
 		dispatch(updateLogged(true));
 	};
@@ -29,7 +29,7 @@ const User = () => {
 						<FacebookLogin
 							appId="1088597931155576"
 							callback={responseFacebook}
-							render={({ onClick }) => <BlackButton onClick={onClick}>Facebook Login</BlackButton>}
+							render={({ onClick }: any) => <BlackButton onClick={onClick}>Facebook Login</BlackButton>}
 						/>
 					</Stack>
 				)}
