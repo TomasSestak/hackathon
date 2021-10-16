@@ -28,8 +28,3 @@ declare module 'react-facebook' {
 	}
 	export class Group extends React.PureComponent<GroupProps> {}
 }
-
-declare module 'react-facebook-login/dist/facebook-login-render-props' {
-	var x: any;
-	export = x;
-}
