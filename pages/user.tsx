@@ -27,7 +27,7 @@ const User = () => {
 							Register / Login via facebook
 						</Text>
 						<FacebookLogin
-							appId="1088597931155576"
+							appId="604290530768520"
 							callback={responseFacebook}
 							render={({ onClick }: any) => <BlackButton onClick={onClick}>Facebook Login</BlackButton>}
 						/>

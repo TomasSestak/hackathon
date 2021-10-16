@@ -17,7 +17,7 @@ const Footer = () => {
 					<NextLink href={'/'} passHref>
 						<Link>Homepage</Link>
 					</NextLink>
-					<NextLink href={'/'} passHref>
+					<NextLink href={'/user'} passHref>
 						<Link>Uživatelský účet</Link>
 					</NextLink>
 				</Stack>

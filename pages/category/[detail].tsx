@@ -31,7 +31,11 @@ export const getStaticProps = async ({ params: { detail } }: { params: Props }):
 const CategoryDetail: NextPage<Props> = ({ detail }) => {
 	return (
 		<Container maxW={'xl'} py={10}>
-			<Grid gap={6}>
+			<Flex flexDirection={'column'} height={206} py={31} px={35} shadow={'base'} justifyContent={'flex-end'} mb={10}>
+				<Heading fontSize={'md'}>{detail}</Heading>
+				<Text fontSize={'xs'}>od 100 Kč | od 10 zprovozovatelů</Text>
+			</Flex>
+			<Grid>
 				{barbers.map((item, index) => {
 					const { oneStar, twoStar, threeStar, fourStar, fiveStar } = item.reviewsDistribution;
 
@@ -41,20 +45,23 @@ const CategoryDetail: NextPage<Props> = ({ detail }) => {
 						<GridItem key={`category-detail-tile: ${index}`}>
 							<Link href={`/service/${slugify(item.title)}`}>
 								<a>
-									<Box borderWidth={1} borderRadius={6} borderColor={'gray.200'} px={4} py={6} position={'relative'}>
-										<Flex alignItems={'center'}>
-											<Heading fontSize={'sm'}>{item.title}</Heading>
-											<Flex alignItems={'flex-end'} ml={'auto'}>
-												{Math.round((rating / item.reviewsCount) * 20 * 10) / 10} % 
-												<Text fontSize={'xs'}>({item.reviewsCount} hodnocení)</Text>
-											</Flex>
+									<Box borderRadius={6} px={4} pt={6} position={'relative'}>
+										<Flex alignItems={'center'} borderBottomWidth={1} borderColor={'gray.200'} pb={6}>
+											<Box borderColor={'gray.200'} borderWidth={1} shadow={'base'} width={79} height={79} mr={6} flexShrink={0} />
+											<div>
+												<Heading fontSize={'sm'}>{item.title}</Heading>
+												<Flex alignItems={'flex-end'} ml={'auto'}>
+													{Math.round((rating / item.reviewsCount) * 20 * 10) / 10} % 
+													<Text fontSize={'xs'}>({item.reviewsCount} hodnocení)</Text>
+												</Flex>
+												<Text fontSize={'xs'} lineHeight={4}>
+													{item.price}
+												</Text>
+												<Text mt={6} color={'gray.600'}>
+													{item.address}
+												</Text>
+											</div>
 										</Flex>
-										<Text fontSize={'xs'} lineHeight={4}>
-											{item.price}
-										</Text>
-										<Text mt={6} color={'gray.600'}>
-											{item.address}
-										</Text>
 									</Box>
 								</a>
 							</Link>
