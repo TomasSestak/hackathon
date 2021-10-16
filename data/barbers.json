@@ -1,0 +1,1618 @@
+[{
+	"title": "The Barber - La Barberia Italiana",
+	"subTitle": null,
+	"price": null,
+	"menu": null,
+	"categoryName": "Barber shop",
+	"address": "Táborská 377/42, 140 00 Praha 4-Nusle, Czechia",
+	"locatedIn": null,
+	"neighborhood": "Táborská 377/42",
+	"street": "Táborská 377/42",
+	"city": "Prague 4-Nusle",
+	"postalCode": "140 00",
+	"state": null,
+	"countryCode": "CZ",
+	"plusCode": "3C7R+4M Prague 4, Czechia",
+	"website": "theitalianbarber.cz",
+	"phone": "+420 774 137 473",
+	"temporarilyClosed": false,
+	"permanentlyClosed": false,
+	"totalScore": 5,
+	"isAdvertisement": false,
+	"rank": 1,
+	"placeId": "ChIJuQjWMkKVC0cR9o8PH2_i-mo",
+	"cid": "7708722679088386038",
+	"url": "https://www.google.com/maps/place/The+Barber+-+La+Barberia+Italiana/@50.0627517,14.4394631,17z/data=!3m1!4b1!4m5!3m4!1s0x470b954232d608b9:0x6afae26f1f0f8ff6!8m2!3d50.0627517!4d14.4416518?hl=en",
+	"searchPageUrl": "https://www.google.com/maps/search/Barber/@49.9761163,14.3357885,12z?hl=en",
+	"searchString": "Barber",
+	"location": {
+		"lat": 50.0627517,
+		"lng": 14.4416518
+	},
+	"scrapedAt": "2021-10-16T21:56:10.065Z",
+	"popularTimesLiveText": null,
+	"popularTimesLivePercent": null,
+	"popularTimesHistogram": {
+		"Su": [],
+		"Mo": [
+			{
+				"hour": 6,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 7,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 8,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 9,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 10,
+				"occupancyPercent": 56
+			},
+			{
+				"hour": 11,
+				"occupancyPercent": 50
+			},
+			{
+				"hour": 12,
+				"occupancyPercent": 41
+			},
+			{
+				"hour": 13,
+				"occupancyPercent": 54
+			},
+			{
+				"hour": 14,
+				"occupancyPercent": 76
+			},
+			{
+				"hour": 15,
+				"occupancyPercent": 80
+			},
+			{
+				"hour": 16,
+				"occupancyPercent": 65
+			},
+			{
+				"hour": 17,
+				"occupancyPercent": 56
+			},
+			{
+				"hour": 18,
+				"occupancyPercent": 60
+			},
+			{
+				"hour": 19,
+				"occupancyPercent": 54
+			},
+			{
+				"hour": 20,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 21,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 22,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 23,
+				"occupancyPercent": 0
+			}
+		],
+		"Tu": [
+			{
+				"hour": 6,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 7,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 8,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 9,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 10,
+				"occupancyPercent": 47
+			},
+			{
+				"hour": 11,
+				"occupancyPercent": 61
+			},
+			{
+				"hour": 12,
+				"occupancyPercent": 60
+			},
+			{
+				"hour": 13,
+				"occupancyPercent": 45
+			},
+			{
+				"hour": 14,
+				"occupancyPercent": 32
+			},
+			{
+				"hour": 15,
+				"occupancyPercent": 34
+			},
+			{
+				"hour": 16,
+				"occupancyPercent": 50
+			},
+			{
+				"hour": 17,
+				"occupancyPercent": 63
+			},
+			{
+				"hour": 18,
+				"occupancyPercent": 54
+			},
+			{
+				"hour": 19,
+				"occupancyPercent": 30
+			},
+			{
+				"hour": 20,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 21,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 22,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 23,
+				"occupancyPercent": 0
+			}
+		],
+		"We": [
+			{
+				"hour": 6,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 7,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 8,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 9,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 10,
+				"occupancyPercent": 58
+			},
+			{
+				"hour": 11,
+				"occupancyPercent": 67
+			},
+			{
+				"hour": 12,
+				"occupancyPercent": 61
+			},
+			{
+				"hour": 13,
+				"occupancyPercent": 61
+			},
+			{
+				"hour": 14,
+				"occupancyPercent": 72
+			},
+			{
+				"hour": 15,
+				"occupancyPercent": 67
+			},
+			{
+				"hour": 16,
+				"occupancyPercent": 47
+			},
+			{
+				"hour": 17,
+				"occupancyPercent": 65
+			},
+			{
+				"hour": 18,
+				"occupancyPercent": 100
+			},
+			{
+				"hour": 19,
+				"occupancyPercent": 56
+			},
+			{
+				"hour": 20,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 21,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 22,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 23,
+				"occupancyPercent": 0
+			}
+		],
+		"Th": [
+			{
+				"hour": 6,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 7,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 8,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 9,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 10,
+				"occupancyPercent": 49
+			},
+			{
+				"hour": 11,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 12,
+				"occupancyPercent": 81
+			},
+			{
+				"hour": 13,
+				"occupancyPercent": 80
+			},
+			{
+				"hour": 14,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 15,
+				"occupancyPercent": 61
+			},
+			{
+				"hour": 16,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 17,
+				"occupancyPercent": 85
+			},
+			{
+				"hour": 18,
+				"occupancyPercent": 89
+			},
+			{
+				"hour": 19,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 20,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 21,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 22,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 23,
+				"occupancyPercent": 0
+			}
+		],
+		"Fr": [
+			{
+				"hour": 6,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 7,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 8,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 9,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 10,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 11,
+				"occupancyPercent": 78
+			},
+			{
+				"hour": 12,
+				"occupancyPercent": 67
+			},
+			{
+				"hour": 13,
+				"occupancyPercent": 61
+			},
+			{
+				"hour": 14,
+				"occupancyPercent": 60
+			},
+			{
+				"hour": 15,
+				"occupancyPercent": 54
+			},
+			{
+				"hour": 16,
+				"occupancyPercent": 52
+			},
+			{
+				"hour": 17,
+				"occupancyPercent": 69
+			},
+			{
+				"hour": 18,
+				"occupancyPercent": 98
+			},
+			{
+				"hour": 19,
+				"occupancyPercent": 83
+			},
+			{
+				"hour": 20,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 21,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 22,
+				"occupancyPercent": 0
+			},
+			{
+				"hour": 23,
+				"occupancyPercent": 0
+			}
+		],
+		"Sa": []
+	},
+	"reviewsCount": 297,
+	"reviewsDistribution": {
+		"oneStar": 1,
+		"twoStar": 1,
+		"threeStar": 0,
+		"fourStar": 8,
+		"fiveStar": 287
+	},
+	"reviews": [],
+	"orderBy": [
+		{
+			"name": "reservio.com",
+			"url": "https://the-italian-barber.reservio.com/booking/business/service?backlink=https%3A%2F%2Fwww.theitalianbarber.cz%2Fabout.html&businessId=c1ac6efa-4c76-45e0-b055-f617146e6df1"
+		}
+	]
+},
+	{
+		"title": "BRO's Barbershop",
+		"subTitle": null,
+		"price": null,
+		"menu": null,
+		"categoryName": "Barber shop",
+		"address": "Podolská 109/2, 147 00 Praha 4, Czechia",
+		"locatedIn": null,
+		"neighborhood": "Podolská 109/2",
+		"street": "Podolská 109/2",
+		"city": "Prague 4",
+		"postalCode": "147 00",
+		"state": null,
+		"countryCode": "CZ",
+		"plusCode": "2CV6+8R Prague, Czechia",
+		"website": "brosbarbershop.cz",
+		"phone": "+420 605 561 693",
+		"temporarilyClosed": false,
+		"permanentlyClosed": false,
+		"totalScore": 4.9,
+		"isAdvertisement": false,
+		"rank": 4,
+		"placeId": "ChIJuwxx8dSVC0cRW3ckmeWf2HA",
+		"cid": "8131424935683061595",
+		"url": "https://www.google.com/maps/place/BRO's+Barbershop/@50.0433282,14.4098705,17z/data=!3m1!4b1!4m5!3m4!1s0x470b95d4f1710cbb:0x70d89fe59924775b!8m2!3d50.0433282!4d14.4120592?hl=en",
+		"searchPageUrl": "https://www.google.com/maps/search/Barber/@49.9761163,14.3357885,12z?hl=en",
+		"searchString": "Barber",
+		"location": {
+			"lat": 50.0433282,
+			"lng": 14.4120592
+		},
+		"scrapedAt": "2021-10-16T21:56:12.154Z",
+		"popularTimesLiveText": null,
+		"popularTimesLivePercent": null,
+		"popularTimesHistogram": {
+			"Su": [],
+			"Mo": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 30
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 34
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 40
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 34
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 32
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 38
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 34
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 20
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 6
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Tu": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 32
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 46
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 69
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 81
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 79
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 73
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 63
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 48
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 32
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 16
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"We": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 46
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 81
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 81
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 48
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 44
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 32
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 20
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 10
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Th": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 24
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 34
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 44
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 53
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 55
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 55
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 81
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 100
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 69
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Fr": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 51
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 59
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 48
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 40
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 32
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 24
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 16
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 10
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Sa": []
+		},
+		"reviewsCount": 80,
+		"reviewsDistribution": {
+			"oneStar": 1,
+			"twoStar": 0,
+			"threeStar": 0,
+			"fourStar": 2,
+			"fiveStar": 77
+		},
+		"reviews": [],
+		"orderBy": []
+	},
+	{
+		"title": "Rebell Barbers Nusle",
+		"subTitle": null,
+		"price": null,
+		"menu": null,
+		"categoryName": "Barber shop",
+		"address": "Táborská 706/18, 140 00 Praha 4-Nusle, Czechia",
+		"locatedIn": null,
+		"neighborhood": "Táborská 706/18",
+		"street": "Táborská 706/18",
+		"city": "Prague 4-Nusle",
+		"postalCode": "140 00",
+		"state": null,
+		"countryCode": "CZ",
+		"plusCode": "3C6P+FV Prague 4, Czechia",
+		"website": "rebellbarbers.cz",
+		"phone": "+420 739 084 912",
+		"temporarilyClosed": false,
+		"permanentlyClosed": false,
+		"totalScore": 4.9,
+		"isAdvertisement": false,
+		"rank": 3,
+		"placeId": "ChIJ2QL2TxCVC0cRb7dqGtJ11d4",
+		"cid": "16056869591706154863",
+		"url": "https://www.google.com/maps/place/Rebell+Barbers+Nusle/@50.0611948,14.4349902,17z/data=!3m1!4b1!4m5!3m4!1s0x470b95104ff602d9:0xded575d21a6ab76f!8m2!3d50.0611948!4d14.4371789?hl=en",
+		"searchPageUrl": "https://www.google.com/maps/search/Barber/@49.9761163,14.3357885,12z?hl=en",
+		"searchString": "Barber",
+		"location": {
+			"lat": 50.0611948,
+			"lng": 14.4371789
+		},
+		"scrapedAt": "2021-10-16T21:56:13.768Z",
+		"popularTimesLiveText": null,
+		"popularTimesLivePercent": null,
+		"popularTimesHistogram": {
+			"Su": [],
+			"Mo": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 26
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 68
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 73
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 36
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 31
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Tu": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 31
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 84
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 73
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 68
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 47
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"We": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 15
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 21
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 36
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 73
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 94
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 68
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 47
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 26
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Th": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 100
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 100
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 100
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 94
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 84
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 63
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Fr": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 94
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 52
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 31
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 31
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 36
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 47
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 73
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 89
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 63
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Sa": []
+		},
+		"reviewsCount": 157,
+		"reviewsDistribution": {
+			"oneStar": 1,
+			"twoStar": 4,
+			"threeStar": 1,
+			"fourStar": 6,
+			"fiveStar": 145
+		},
+		"reviews": [],
+		"orderBy": [
+			{
+				"name": "reservio.com",
+				"url": "https://rebell-barbers-s-r-o.reservio.com/"
+			}
+		]
+	},
+	{
+		"title": "Legends Barber",
+		"subTitle": null,
+		"price": null,
+		"menu": "legends-barber.reservio.com",
+		"categoryName": "Barber shop",
+		"address": "Děkanská vinice I 823/13, 140 00 Praha 4-Nusle, Czechia",
+		"locatedIn": null,
+		"neighborhood": "Děkanská vinice I 823/13",
+		"street": "Děkanská vinice I 823/13",
+		"city": "Prague 4-Nusle",
+		"postalCode": "140 00",
+		"state": null,
+		"countryCode": "CZ",
+		"plusCode": "3C4M+7F Prague 4, Czechia",
+		"website": "legendsbarber.cz",
+		"phone": "+420 704 900 764",
+		"temporarilyClosed": false,
+		"permanentlyClosed": false,
+		"totalScore": 5,
+		"isAdvertisement": false,
+		"rank": 2,
+		"placeId": "ChIJW0-Q7V-VC0cRTu0-7UNzYb0",
+		"cid": "13646315081489640782",
+		"url": "https://www.google.com/maps/place/Legends+Barber/@50.0557153,14.4315469,17z/data=!3m1!4b1!4m5!3m4!1s0x470b955fed904f5b:0xbd617343ed3eed4e!8m2!3d50.0557153!4d14.4337356?hl=en",
+		"searchPageUrl": "https://www.google.com/maps/search/Barber/@49.9761163,14.3357885,12z?hl=en",
+		"searchString": "Barber",
+		"location": {
+			"lat": 50.0557153,
+			"lng": 14.4337356
+		},
+		"scrapedAt": "2021-10-16T21:56:16.166Z",
+		"popularTimesLiveText": null,
+		"popularTimesLivePercent": null,
+		"popularTimesHistogram": {
+			"Su": [],
+			"Mo": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 35
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 14
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 50
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Tu": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 35
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 50
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 50
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 100
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"We": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 28
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 35
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 57
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 78
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 85
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 85
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 64
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Th": [
+				{
+					"hour": 6,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 7,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 8,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 9,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 10,
+					"occupancyPercent": 35
+				},
+				{
+					"hour": 11,
+					"occupancyPercent": 21
+				},
+				{
+					"hour": 12,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 13,
+					"occupancyPercent": 71
+				},
+				{
+					"hour": 14,
+					"occupancyPercent": 71
+				},
+				{
+					"hour": 15,
+					"occupancyPercent": 50
+				},
+				{
+					"hour": 16,
+					"occupancyPercent": 50
+				},
+				{
+					"hour": 17,
+					"occupancyPercent": 64
+				},
+				{
+					"hour": 18,
+					"occupancyPercent": 42
+				},
+				{
+					"hour": 19,
+					"occupancyPercent": 7
+				},
+				{
+					"hour": 20,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 21,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 22,
+					"occupancyPercent": 0
+				},
+				{
+					"hour": 23,
+					"occupancyPercent": 0
+				}
+			],
+			"Fr": [],
+			"Sa": []
+		},
+		"reviewsCount": 30,
+		"reviewsDistribution": {
+			"oneStar": 0,
+			"twoStar": 0,
+			"threeStar": 0,
+			"fourStar": 0,
+			"fiveStar": 30
+		},
+		"reviews": [],
+		"orderBy": [
+			{
+				"name": "reservio.com",
+				"url": "https://legends-barber.reservio.com/"
+			}
+		]
+	}]
