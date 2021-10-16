@@ -1,0 +1,7 @@
+{
+  "https://framer.com/m/Test-ymGv.js@WOc9M8ZCMCxUW5D1ByxE": { "resolved": "https://framerusercontent.com/modules/OXjvKQk3lz56vKIZxN3s/WOc9M8ZCMCxUW5D1ByxE/pd_qanBgD.js", "integrity": "sha512-V+2d38kDkeaefX9z9dHzEwdcprWohb1wfN5hZYt+c9L7W1JVClkOC6tXQTSnqTyQZCQ/eqsjn7RMgOBj/gI/ew==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framer.com/m/framer/randomID.js@^2.0.0": { "resolved": "https://framerusercontent.com/modules/9v9kZvfG4dVIvUGXWTUG/0XmuCxJqtgJLC9OHPU64/randomID.js", "integrity": "sha512-I+aLLdwOzklP4OSw18GaKkpPVOXMsJom4XsE1f7sHs6QAIRtiS0+u4KK+06kc4T24On08AaP54d6F3ZS5zhlNA==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framer.com/m/framer/useConstant.js@^1.0.0": { "resolved": "https://framerusercontent.com/modules/e6iTGMqgmkFJvN0mYhkr/KWXeR1JD2kMVZ95etjSs/useConstant.js", "integrity": "sha512-AWOENGlFPMLr/lWIIT5WyYDo8DWBJGywUpoDdSttgt2m0GZ/vm4xU5hI2eykze45HhprugVxpPjMFusU/FDpaA==", "contentType": "text/javascript; charset=UTF-8" },
+  "https://framer.com/m/store/@framer/framer.base/Controls/Button.js?Button": { "integrity": "sha512-8Qmm5Es1JueGY731gNhYT+J72RiVujJFQtTWxw0fMe2NLrXgUE/x3DQXqqm8he0Oca91D2FE63eczrsU51Ru+g==", "contentType": "text/javascript; charset=UTF-8" },
+  "version": 1
+}
