@@ -11,8 +11,8 @@ const AddressItems = ({ register, onBlur }: Props) => {
 	return (
 		<Stack>
 			<Input register={register} id={'street'} label={'Ulice'} onBlur={onBlur} />
-			<Input register={register} id={'postalCode'} label={'PSČ'} oBlur={onBlur} />
-			<Input register={register} id={'city'} label={'Město'} onBlur />
+			<Input register={register} id={'postalCode'} label={'PSČ'} onBlur={onBlur} />
+			<Input register={register} id={'city'} label={'Město'} onBlur={onBlur} />
 		</Stack>
 	);
 };

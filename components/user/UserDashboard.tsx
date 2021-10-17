@@ -11,6 +11,7 @@ import AddressItems from '@/components/form/AddressItems';
 import BlackButton from '@/components/buttons/BlackButton';
 import DemandService from '@/components/form/DemandService';
 import NextLink from 'next/link';
+import { useSelector } from '@/store';
 
 interface FormData {}
 
@@ -43,22 +44,34 @@ const Item = ({ href, label, border }: ItemProps) => {
 	);
 };
 
+interface FormData {
+	email: string;
+	full_name: string;
+	street: string;
+	postalCode: string;
+	city: string;
+}
+
 const UserDashboard = () => {
+	const { clientData } = useSelector(({ auth }) => auth);
+
+	const { email, full_name } = clientData!;
+
+	console.log(clientData);
+
 	const {
 		handleSubmit,
 		register,
 		watch,
 		formState: { errors, isSubmitting },
-	} = useForm();
+	} = useForm({ defaultValues: { email, full_name } });
 
 	const onBlur = () => {};
 
 	return (
 		<Flex flexDirection={'column'}>
-			<Input label={'Username'} placeholder={'@username'} id={'username'} register={register} />
-			<Text color={'gray.500'} fontSize={'xs'} mt={1}>
-				Vygenerováno facebookem
-			</Text>
+			<Input label={'Jméno a příjmení'} placeholder={'Zadejte celé jméno'} id={'full_name'} register={register} />
+			<Input label={'E-mail'} placeholder={'Zadejte e-mail'} id={'email'} register={register} />
 			<AddressItems register={register} onBlur={handleSubmit(onBlur)} />
 
 			<Flex flexDirection={'column'} borderColor={'gray.200'} shadow={'base'} borderWidth={1} mt={'34px'} mb={'15px'}>

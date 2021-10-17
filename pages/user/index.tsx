@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from '@/store';
 import { updateLogged } from '@/store/auth';
 import Input from '@/components/form/Input';
 import UserDashboard from '@/components/user/UserDashboard';
+import Login from '@/components/auth/Login';
 
 const UserIndex = () => {
 	const dispatch = useDispatch();
@@ -18,22 +19,7 @@ const UserIndex = () => {
 
 	return (
 		<Flex flexDirection={'column'} minH={'100vh'} justifyContent={'center'}>
-			<Container>
-				{logged ? (
-					<UserDashboard />
-				) : (
-					<Stack justifyContent={'center'}>
-						<Text fontSize={'xs'} textAlign={'center'}>
-							Register / Login via facebook
-						</Text>
-						<FacebookLogin
-							appId="604290530768520"
-							callback={responseFacebook}
-							render={({ onClick }: any) => <BlackButton onClick={onClick}>Facebook Login</BlackButton>}
-						/>
-					</Stack>
-				)}
-			</Container>
+			<Container>{logged ? <UserDashboard /> : <Login />}</Container>
 		</Flex>
 	);
 };
