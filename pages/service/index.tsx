@@ -8,6 +8,8 @@ const ServiceIndex = () => {
 
 	const { data, isLoading } = useGetSearchResultsQuery(text);
 
+	console.log(data);
+
 	return (
 		<Container>
 			<Box mr={2} flexGrow={1} position={'relative'}>
@@ -29,7 +31,7 @@ const ServiceIndex = () => {
 					{data
 						.filter((item) => item.type === 'service')
 						.map(({ name, price }) => {
-							return <ServiceRow name={name} price={price} href={`/service/${name}`} />;
+							return <ServiceRow name={name} price={price!} href={`/service/${name}`} key={name + price} />;
 						})}
 				</Flex>
 			)}

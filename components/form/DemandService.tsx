@@ -25,7 +25,7 @@ const DemandService = () => {
 	const [addDemand, { isLoading: isUpdating }] = useAddDemandMutation();
 
 	const onSubmit: SubmitHandler<FormData> = async ({ content, budget, category_id }) => {
-		addDemand({ user_id: id, content, budget, category_id });
+		addDemand({ user_id: id!, content, budget, category_id });
 		alert('Poptávka byla úspěsně vytvořena!');
 	};
 
@@ -37,7 +37,7 @@ const DemandService = () => {
 				</Heading>
 				{data
 					?.filter(({ user_id }) => user_id === id)
-					.map(({ content, budget, name, status }) => {
+					.map(({ content, budget, category: { name }, status }) => {
 						return (
 							<Flex flexDirection={'column'} borderRadius={6} borderWidth={1} borderColor={'gray.200'} shadow={'base'} px={7} py={5}>
 								<Flex justifyContent={'space-between'}>
