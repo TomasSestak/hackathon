@@ -26,10 +26,8 @@ interface AxiosBaseQueryProps {
 export const axiosBaseQuery: BaseQueryFn<AxiosBaseQueryProps, unknown, AxiosError['response']> = async ({ url, method = 'get', data }) => {
 	try {
 		const result = await api({ url, method, data });
-		console.log(result);
 		return { data: result.data };
 	} catch (error: any) {
-		console.log('ZDE ERROR');
 		console.log(error);
 		return {
 			error: error.response,

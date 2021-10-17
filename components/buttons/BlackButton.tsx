@@ -8,7 +8,7 @@ interface Props {
 const BlackButton = ({ onClick, children, ...rest }: Props & ButtonProps) => {
 	return (
 		<Button onClick={onClick} variant={'solid'} size={'lg'} bg={'black'} color={'white'} borderRadius={6} minWidth={320} mt={8} {...rest}>
-			<Text fontSize={'lg'} lineHeight={7} fontWeight={'semi-bold'}>
+			<Text fontSize={'md'} lineHeight={7} fontWeight={'semi-bold'}>
 				{children}
 			</Text>
 		</Button>

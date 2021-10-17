@@ -26,7 +26,7 @@ const Header = () => {
 						placeholder={'Zadejtu službu nebo jméno podniku'}
 						variant={'outline'}
 						size={'sm'}
-						onInput={async ({ currentTarget: { value } }) => setText(value)}
+						onInput={({ currentTarget: { value } }) => (isLoading ? null : setText(value))}
 						borderRadius={6}
 					/>
 					<Fade in={isLoading}>
