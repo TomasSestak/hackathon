@@ -6,7 +6,7 @@ export const searchApi = createApi({
 	reducerPath: 'searchApi',
 	endpoints: (build) => ({
 		getSearchResults: build.query<any, string>({
-			query: (text) => ({ url: `/api/search${text}` }),
+			query: (text) => ({ url: `/search/${text}` }),
 		}),
 	}),
 });

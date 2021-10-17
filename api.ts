@@ -3,7 +3,7 @@ import { BaseQueryFn } from '@reduxjs/toolkit/query';
 import { FetchBaseQueryArgs } from '@reduxjs/toolkit/dist/query/fetchBaseQuery';
 
 const api = axios.create({
-	baseURL: '',
+	baseURL: 'http://10.12.201.165:3000/api/v1',
 	headers: {
 		'Content-Type': 'application/json',
 	},
@@ -26,8 +26,11 @@ interface AxiosBaseQueryProps {
 export const axiosBaseQuery: BaseQueryFn<AxiosBaseQueryProps, unknown, AxiosError['response']> = async ({ url, method = 'get', data }) => {
 	try {
 		const result = await api({ url, method, data });
+		console.log(result);
 		return { data: result.data };
 	} catch (error: any) {
+		console.log('ZDE ERROR');
+		console.log(error);
 		return {
 			error: error.response,
 		};

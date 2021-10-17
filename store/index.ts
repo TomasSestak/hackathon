@@ -8,8 +8,9 @@ import {
 } from 'react-redux';
 import ui from '@/store/ui';
 import auth from '@/store/auth';
+import { searchApi } from '@/store/search';
 
-const combinedReducer = combineReducers({ ui, auth });
+const combinedReducer = combineReducers({ ui, auth, [searchApi.reducerPath]: searchApi.reducer });
 
 const reducer = (state: any, action: any) => {
 	if (action.type === 'user/reset') {

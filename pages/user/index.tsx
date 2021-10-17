@@ -6,7 +6,7 @@ import { updateLogged } from '@/store/auth';
 import Input from '@/components/form/Input';
 import UserDashboard from '@/components/user/UserDashboard';
 
-const User = () => {
+const UserIndex = () => {
 	const dispatch = useDispatch();
 
 	const { logged } = useSelector(({ auth }) => auth);
@@ -38,4 +38,4 @@ const User = () => {
 	);
 };
 
-export default User;
+export default UserIndex;

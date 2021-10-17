@@ -1,5 +1,6 @@
 import { Input as ChakraInput, Text, Stack, InputProps } from '@chakra-ui/react';
 import { RegisterOptions, UseFormRegister } from 'react-hook-form';
+import Label from '@/components/form/Label';
 
 interface Props {
 	register: UseFormRegister<any>;
@@ -10,10 +11,8 @@ interface Props {
 const Input = ({ register, id, label, ...rest }: Props & InputProps) => {
 	return (
 		<Stack>
-			<Text fontSize={'md'} lineHeight={6} fontWeight={'medium'} mt={3}>
-				{label}
-			</Text>
-			<ChakraInput variant={'outline'} id={id} {...register(id)} />
+			<Label>{label}</Label>
+			<ChakraInput variant={'outline'} id={id} {...register(id)} {...rest} />
 		</Stack>
 	);
 };

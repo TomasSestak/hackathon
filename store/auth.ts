@@ -6,7 +6,7 @@ interface AuthStore {
 }
 
 const initialState = {
-	logged: false,
+	logged: true,
 };
 
 const slice = createSlice({

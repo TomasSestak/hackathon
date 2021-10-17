@@ -1,9 +1,10 @@
-import { Box, Container, Flex, Input, Select, Button, Link as ChakraLink } from '@chakra-ui/react';
+import { Box, Container, Flex, Input, Select, Button, Link as ChakraLink, Fade } from '@chakra-ui/react';
 import Link from 'next/link';
 import { useForm } from 'react-hook-form';
 import api from '@/api';
 import { useState } from 'react';
 import { useGetSearchResultsQuery } from '@/store/search';
+import { Spinner } from '@chakra-ui/react';
 
 const Header = () => {
 	const { register } = useForm();
@@ -12,19 +13,26 @@ const Header = () => {
 
 	const { data, isLoading } = useGetSearchResultsQuery(text);
 
+	console.log(data, isLoading);
+
 	return (
 		<Container>
 			<Flex py={18}>
-				<Select size={'sm'} variant={'outline'} mr={2} width={91} flexShrink={0}>
-					<option value="option1">Praha</option>
+				<Select size={'sm'} variant={'outline'} mr={2} width={91} flexShrink={0} borderRadius={6}>
+					<option value="prague">Praha</option>
 				</Select>
-				<Input
-					placeholder={'Zadejtu službu nebo jméno podniku'}
-					variant={'outline'}
-					size={'sm'}
-					onInput={async ({ currentTarget: { value } }) => setText(value)}
-					mr={2}
-				/>
+				<Box mr={2} flexGrow={1} position={'relative'}>
+					<Input
+						placeholder={'Zadejtu službu nebo jméno podniku'}
+						variant={'outline'}
+						size={'sm'}
+						onInput={async ({ currentTarget: { value } }) => setText(value)}
+						borderRadius={6}
+					/>
+					<Fade in={isLoading}>
+						<Spinner color={'gray.400'} position={'absolute'} top={2} right={2} width={15} height={15} />
+					</Fade>
+				</Box>
 				<Flex>
 					<Link href={'/user'} passHref>
 						<ChakraLink height={'100%'} mr={2}>
