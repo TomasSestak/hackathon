@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import SideNavigation from '@/components/SideNavigation';
 import Footer from '@/components/layout/Footer';
+import Header from '@/components/layout/Header';
 
 interface Props {
 	children: ReactNode;
@@ -9,8 +10,8 @@ interface Props {
 const Layout = ({ children }: Props) => {
 	return (
 		<div>
+			<Header />
 			{children}
-			<SideNavigation />
 			<Footer />
 		</div>
 	);

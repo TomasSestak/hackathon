@@ -17,30 +17,19 @@ interface AxiosBaseQueryProps {
 	data?: AxiosRequestConfig['data'];
 }
 
-export const axiosBaseQuery =
-	({
-		baseUrl,
-		prepareHeaders,
-	}: {
-		baseUrl?: string;
-		prepareHeaders?: FetchBaseQueryArgs['prepareHeaders'];
-	}): BaseQueryFn<
-		{
-			url: string;
-			method: AxiosRequestConfig['method'];
-			data?: AxiosRequestConfig['data'];
-		},
-		unknown,
-		unknown
-	> =>
-	async ({ url, method, data }) => {
-		try {
-			const result = await api({ url: baseUrl ? baseUrl + url : url, method, data });
-			return { data: result.data };
-		} catch (axiosError) {
-			let err = axiosError as AxiosError;
-			return {
-				error: { status: err.response?.status, data: err.response?.data },
-			};
-		}
-	};
+interface AxiosBaseQueryProps {
+	url: string;
+	method?: AxiosRequestConfig['method'];
+	data?: AxiosRequestConfig['data'];
+}
+
+export const axiosBaseQuery: BaseQueryFn<AxiosBaseQueryProps, unknown, AxiosError['response']> = async ({ url, method = 'get', data }) => {
+	try {
+		const result = await api({ url, method, data });
+		return { data: result.data };
+	} catch (error: any) {
+		return {
+			error: error.response,
+		};
+	}
+};

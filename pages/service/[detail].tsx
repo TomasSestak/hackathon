@@ -39,22 +39,7 @@ export const getStaticProps = async ({ params: { detail } }: { params: Props }):
 };
 
 const ServiceDetail: NextPage<Props> = ({ detail }) => {
-	return (
-		<>
-			{barbers.map((item, index) => {
-				return (
-					<>
-						<Box key={`service-detail-tile: ${index}`} borderWidth={1} borderRadius={6} borderColor={'gray.200'}>
-							<Heading fontSize={'sm'}>{item.title}</Heading>
-							<Text fontSize={'xs'} lineHeight={4}>
-								{item.price}
-							</Text>
-						</Box>
-					</>
-				);
-			})}
-		</>
-	);
+	return <></>;
 };
 
 export default ServiceDetail;
