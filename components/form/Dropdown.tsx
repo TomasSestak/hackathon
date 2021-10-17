@@ -6,7 +6,7 @@ interface Props {
 	register: UseFormRegister<any>;
 	id: string;
 	label: string;
-	items: { value: string; label: string }[];
+	items: { value: number; label: string }[];
 }
 
 const Dropdown = ({ register, id, label, items, ...rest }: Props & InputProps) => {

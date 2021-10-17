@@ -9,8 +9,14 @@ import {
 import ui from '@/store/ui';
 import auth from '@/store/auth';
 import { searchApi } from '@/store/search';
+import { demandsApi } from '@/store/demands';
 
-const combinedReducer = combineReducers({ ui, auth, [searchApi.reducerPath]: searchApi.reducer });
+const combinedReducer = combineReducers({
+	ui,
+	auth,
+	[searchApi.reducerPath]: searchApi.reducer,
+	[demandsApi.reducerPath]: demandsApi.reducer,
+});
 
 const reducer = (state: any, action: any) => {
 	if (action.type === 'user/reset') {
@@ -25,4 +31,7 @@ export const useDispatch = () => useReduxDispatch<AppDispatch>();
 export const useStore = () => useReduxStore<RootState>();
 export const useSelector: TypedUseSelectorHook<RootState> = useReduxSelector;
 
-export const store = configureStore({ reducer, middleware: (gDM) => gDM({ serializableCheck: false }).concat(searchApi.middleware) });
+export const store = configureStore({
+	reducer,
+	middleware: (gDM) => gDM({ serializableCheck: false }).concat(searchApi.middleware).concat(demandsApi.middleware),
+});

@@ -5,7 +5,7 @@ import { SubmitHandler } from 'react-hook-form';
 import Input from '@/components/form/Input';
 import api from '@/api';
 import { useDispatch } from '@/store';
-import { setClientData, updateLogged } from '@/store/auth';
+import { setClientData, setId, updateLogged } from '@/store/auth';
 
 interface FormData {
 	email: string;
@@ -28,6 +28,7 @@ const Login = () => {
 			}: { data: { id: number } } = await api.post('/login', { email, password });
 			const { data } = await api.get(`/user/${id}`);
 			dispatch(setClientData(data));
+			dispatch(setId(id));
 			dispatch(updateLogged(true));
 		} catch (error) {
 			console.log(error);
