@@ -13,7 +13,7 @@ const Header = () => {
 
 	const { data, isLoading } = useGetSearchResultsQuery(text);
 
-	console.log(data, isLoading);
+	console.log(data);
 
 	return (
 		<Container>
@@ -26,6 +26,7 @@ const Header = () => {
 						placeholder={'Zadejtu službu nebo jméno podniku'}
 						variant={'outline'}
 						size={'sm'}
+						value={text}
 						onInput={({ currentTarget: { value } }) => (isLoading ? null : setText(value))}
 						borderRadius={6}
 					/>

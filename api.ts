@@ -28,7 +28,6 @@ export const axiosBaseQuery: BaseQueryFn<AxiosBaseQueryProps, unknown, AxiosErro
 		const result = await api({ url, method, data });
 		return { data: result.data };
 	} catch (error: any) {
-		console.log(error);
 		return {
 			error: error.response,
 		};

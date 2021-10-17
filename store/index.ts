@@ -25,4 +25,4 @@ export const useDispatch = () => useReduxDispatch<AppDispatch>();
 export const useStore = () => useReduxStore<RootState>();
 export const useSelector: TypedUseSelectorHook<RootState> = useReduxSelector;
 
-export const store = configureStore({ reducer, middleware: (gDM) => gDM().concat() });
+export const store = configureStore({ reducer, middleware: (gDM) => gDM({ serializableCheck: false }).concat(searchApi.middleware) });
