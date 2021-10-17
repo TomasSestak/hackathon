@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import barbers from '@/data/barbers.json';
-import { Box, Text, Heading, Image, Flex } from '@chakra-ui/react';
+import { Box, Text, Heading, Image, Flex, Container } from '@chakra-ui/react';
 import slugify from 'slugify';
 import api from '@/api';
 import CompanyRow from '@/components/CompanyRow';
@@ -53,9 +53,12 @@ const ServiceDetail: NextPage<Props> = ({ detail }) => {
 					</Text>
 				</Flex>
 			</Box>
-			<CompanyRow name={'Firm 1'} rating={90} price={100} />
-			<CompanyRow name={'Firm 2'} rating={80} price={100} />
-			<CompanyRow name={'Firm 3'} rating={70} price={100} />
+			<Container>
+				<CompanyRow name={'Firm 1'} rating={90} price={100} />
+				<CompanyRow name={'Firm 2'} rating={80} price={100} />
+				<CompanyRow name={'Firm 3'} rating={70} price={100} />
+			</Container>
+			<Image src={'/map.jpg'} width={'100%'} />
 		</Flex>
 	);
 };

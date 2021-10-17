@@ -17,9 +17,9 @@ const CompanyRow = ({ name, rating, price }: Props) => {
 					{rating} % spokojených zákazníků
 				</Text>
 			</Flex>
-			<Flex flexDirection={'column'}>
+			<Flex flexDirection={'column'} alignItems={'flex-end'}>
 				<Heading size={'sm'}>{price} Kč</Heading>
-				<Text color={'green.300'} fontSize={'xs'}>
+				<Text color={'gray.300'} fontSize={'xs'}>
 					za danou službu
 				</Text>
 			</Flex>
